@@ -1,5 +1,7 @@
 import React from 'react';
-const Headder = function(){
+
+
+const Header = function(){
     const headerStyle = {
         textAlign: 'center',
         padding: 20,
@@ -7,6 +9,7 @@ const Headder = function(){
         color: '#fff',
         textTransform: 'uppercase'
     };
+
     return (
         <div style={headerStyle}>
             Phone Directory
