@@ -8,7 +8,7 @@ class App extends Component {
 
     let subscribers = [
       {
-        idd: 1,
+        id: 1,
         name: "Shilpa Bhat",
         phone: "88888888"
       },
@@ -35,6 +35,9 @@ class App extends Component {
               return <div key={sub.id} className="grid-container">
                 <span className="grid-item">{sub.name}</span>
                 <span className="grid-item">{sub.phone}</span>
+                <span className="grid-item action-btn-container">
+                  <button className="custom-btn delete-btn">Delete</button>
+                </span>
                 </div>
             })
           }
